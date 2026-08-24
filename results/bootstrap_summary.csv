@@ -1,0 +1,4 @@
+comparison,metric,estimate,ci_lower,ci_upper,n_bootstrap,resampling_unit
+A vs B,delta_auroc,0.0384,0.0232,0.0533,5000,patient
+B vs D,delta_auroc,0.0018,-0.0028,0.0064,5000,patient
+B vs D,delta_brier,-0.0013,-0.0042,0.0016,5000,patient

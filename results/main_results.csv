@@ -1,0 +1,5 @@
+model,description,test_auroc,test_auprc,brier
+A,EfficientNet-B0 (ImageNet) image-only,0.8407,0.8472,0.1626
+B,BiomedCLIP image-only,0.8791,0.8900,0.1414
+C,BiomedCLIP clinical-text-only,0.6762,0.7004,0.2270
+D,BiomedCLIP image + clinical text (late fusion),0.8809,0.8914,0.1401
