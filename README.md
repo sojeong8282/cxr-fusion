@@ -16,7 +16,6 @@
 | Validation | AUROC, AUPRC, Brier, calibration, patient-level bootstrap, subgroup, discordant cases |
 | Main finding | Image representation의 영향은 명확했지만, text의 평균적 incremental benefit은 확인되지 않음 |
 
-![Model performance overview](results/model_performance_overview.png)
 
 ---
 
@@ -250,7 +249,6 @@ Selection rule: highest Validation AUROC
 
 점수의 작은 차이가 우연한 표본 변동인지 확인하기 위해 환자 단위 paired bootstrap을 5,000회 수행했습니다.
 
-![Bootstrap effect estimates](results/bootstrap_effects.png)
 
 | 비교 | 지표 | 추정값 | 95% CI | 해석 |
 |---|---|---:|---|---|
@@ -278,7 +276,6 @@ B와 D 모두 대각선에 비교적 가까웠고 두 곡선도 유사했습니�
 
 Clinical text가 특정 촬영 방식이나 환자군에서만 도움이 되는지 탐색했습니다.
 
-![Subgroup delta AUROC forest plot](results/subgroup_delta_auroc.png)
 
 | Subgroup | n | B Image | D Image+Text | ΔAUROC | 95% CI |
 |---|---:|---:|---:|---:|---|
@@ -310,7 +307,6 @@ AP 영상은 portable·bedside 촬영에서 흔하며 심장이 확대되어 보
 - B image-only threshold: **0.5197**
 - D image+text threshold: **0.5164**
 
-![Discordant case overview](results/discordant_cases_overview.png)
 
 | Case type | n | 의미 |
 |---|---:|---|
